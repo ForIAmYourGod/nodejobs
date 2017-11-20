@@ -1,0 +1,16 @@
+{
+  "name": "dbmicro",
+  "version": "1.0.0",
+  "description": "microbase of job info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "murphy",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nodemon": "^1.12.1",
+    "yargs": "^4.7.1"
+  }
+}
