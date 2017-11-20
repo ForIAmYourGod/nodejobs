@@ -21,5 +21,6 @@ if (command === 'add'){
 } else if (command === 'delete') {
   jobAPI.deleteJob(argv.title, argv.jobN);
 } else {
-  console.log('Task Unknown'.bold.red);
+  console.log('Problem Encountered:'.bold.red);
+  console.log('-Task Unknown-'.bold.red ,'-Recheck Parameters-'.bold.red);
 }
